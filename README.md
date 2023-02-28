@@ -1,3 +1,5 @@
+<img src="https://media.licdn.com/dms/image/D4D16AQH25-XOqtNqdw/profile-displaybackgroundimage-shrink_350_1400/0/1674605075018?e=1682553600&v=beta&t=TNnw0RWEzWxbOiMtQRaWr1W8Z4XI15oyyJBzzCIGgzc"/>
+
 # Proyecto Cotizador de Criptomonedas
 
 En este proyecto voy a crear un cotizador de criptomonedas. El objetivo principal es practicar el asincronismo y el uso de styled components.
