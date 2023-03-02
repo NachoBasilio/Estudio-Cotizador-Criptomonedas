@@ -42,5 +42,5 @@ export default function useSelectMonedas(texto, opciones) {//Un hook va a retorn
             </Select>
         </>
     )
-    return [SelectMonedas]
+    return [SelectMonedas, state]
 }
