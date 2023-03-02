@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import React from 'react'
+import {useState} from 'react'
 
 const Label = styled.label`
     color: #FFF;
@@ -19,10 +19,15 @@ const Select = styled.select`
 `
 
 export default function useSelectMonedas(texto, opciones) {//Un hook va a retornar un objeto o un arreglo
+    const [state, setState] = useState("")
+
     const SelectMonedas = ()=>(
         <>
             <Label>{texto}</Label>
-            <Select>
+            <Select
+            value={state}
+            onChange={e => setState(e.target.value)}
+            >
                 <option value="">Seleccione</option>
                 {
                     opciones.map(op => (
