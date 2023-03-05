@@ -1,8 +1,11 @@
-import {useEffect,useState} from 'react'
-import styled from '@emotion/styled'
+import {useEffect, useState} from 'react'
 import useSelectMonedas from '../hooks/useSelectMonedas'
-import { monedas } from '../data/monedas'
 import Error from './Error'
+import { monedas } from '../data/monedas'
+import styled from '@emotion/styled'
+
+
+
 
 
 const InputSubmit = styled.input`
@@ -31,7 +34,7 @@ export default function Formulario({setMonedas}) {
 
     useEffect(()=>{
       const consultarAPI = async ()=>{
-        const url = "https://min-api.cryptocompare.com/data/top/mktcapfull?limit=10&tsym=USD"
+        const url = "https://min-api.cryptocompare.com/data/top/mktcapfull?limit=20&tsym=USD"
         const respuesta = await fetch(url)
         const resultado = await respuesta.json()
 
@@ -52,6 +55,7 @@ export default function Formulario({setMonedas}) {
       e.preventDefault()
       if([moneda, cripto].includes('')){
         setError(true)
+        return
       }
 
       setError(false)
