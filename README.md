@@ -11,3 +11,6 @@ Por ahora, ya escribí las notas sobre # cotizador-criptomonedas
  aquí.
 
 Este proyecto será diferente a mis dos primeros proyectos, ya que tendrá un diario de desarrollo para poder guardar los conceptos aprendidos.
+
+<img src="https://i.ibb.co/QHHYKZ1/Captura-desde-2023-03-06-19-27-06.png"/>
+<img src="https://i.ibb.co/fGyVr0h/Captura-desde-2023-03-06-19-27-24.png"/>
