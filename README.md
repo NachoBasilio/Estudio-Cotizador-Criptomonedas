@@ -10,7 +10,7 @@ Además, he utilizado `styled components` para dar estilo a la aplicación y hac
 
 La aplicación es muy fácil de usar, simplemente ingresas la cantidad que quieres convertir, seleccionas la criptomoneda de origen y la criptomoneda de destino, y la aplicación te muestra el resultado de la conversión.
 
-En el futuro, me gustaría seguir mejorando la aplicación, añadiendo más criptomonedas y mejorando su funcionalidad. También estaré documentando el progreso y los conceptos aprendidos en mi diario de desarrollo en Notion, que puedes encontrar [aquí](https://political-thing-0ef.notion.site/cotizador-criptomonedas-e26d3bbbe81d401db7f26f8e1c7b1f81).
+En el futuro, me gustaría seguir mejorando la aplicación, añadiendo más criptomonedas y mejorando su funcionalidad. También estaré documentando el progreso y los conceptos aprendidos en mi diario de desarrollo en Notion, que puedes encontrar [aquí](https://political-thing-0ef.notion.site/Cotizador-de-Criptomonedas-62555f6e85a34e6abf60a494c9daa9f1).
 
 Adjunto imagenes del projecto: 
 
