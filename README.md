@@ -1,16 +1,22 @@
 <img src="https://media.licdn.com/dms/image/D4D16AQH25-XOqtNqdw/profile-displaybackgroundimage-shrink_350_1400/0/1674605075018?e=1682553600&v=beta&t=TNnw0RWEzWxbOiMtQRaWr1W8Z4XI15oyyJBzzCIGgzc"/>
 
-# Proyecto Cotizador de Criptomonedas
+<div align="center"> 
+ <h2> Conversor de Criptomonedas </h2>
+</div>
 
-En este proyecto voy a crear un cotizador de criptomonedas. El objetivo principal es practicar el asincronismo y el uso de styled components.
+En este proyecto de React, he creado un conversor de criptomonedas utilizando la API pública de [crypto compare](https://min-api.cryptocompare.com/). Para obtener la información de las criptomonedas, he utilizado `fetch`, lo que permite hacer peticiones asincrónicas a la API.
 
-Además, voy a tomar notas en Notion y las voy a compartir para quien quiera o necesite leerlas.
+Además, he utilizado `styled components` para dar estilo a la aplicación y hacerla más atractiva visualmente.
 
-Por ahora, ya escribí las notas sobre # cotizador-criptomonedas
-[stiled componentes](https://political-thing-0ef.notion.site/Styled-Components-a5e38cb29d494d38b718f5154c136197)
- aquí.
+La aplicación es muy fácil de usar, simplemente ingresas la cantidad que quieres convertir, seleccionas la criptomoneda de origen y la criptomoneda de destino, y la aplicación te muestra el resultado de la conversión.
 
-Este proyecto será diferente a mis dos primeros proyectos, ya que tendrá un diario de desarrollo para poder guardar los conceptos aprendidos.
+En el futuro, me gustaría seguir mejorando la aplicación, añadiendo más criptomonedas y mejorando su funcionalidad. También estaré documentando el progreso y los conceptos aprendidos en mi diario de desarrollo en Notion, que puedes encontrar [aquí](https://political-thing-0ef.notion.site/cotizador-criptomonedas-e26d3bbbe81d401db7f26f8e1c7b1f81).
+
+Adjunto imagenes del projecto: 
+
+<div align="center"> 
 
 <img src="https://i.ibb.co/QHHYKZ1/Captura-desde-2023-03-06-19-27-06.png"/>
 <img src="https://i.ibb.co/fGyVr0h/Captura-desde-2023-03-06-19-27-24.png"/>
+
+ </div>
